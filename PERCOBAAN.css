@@ -1,0 +1,136 @@
+li {
+	list-style: none;
+	font-family: Lucida Sans Unicode;
+}
+img {
+	width: 200px;
+	height: 200px;
+}
+body {
+	margin: 0 auto;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.kotakk {
+	max-width: 1170px;
+}
+.ataskiri, .bawahkiri, .judul {
+	font-family: Arial Black;
+}
+.atas {
+	background-color: #F08080;
+	height: 60px;
+	position: absolute;
+	width: 100%
+}
+.ataskiri {
+	float: left;
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-right: 100px;
+	line-height: 2;
+}
+.daftaratas li{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+.daftaratas a {
+	padding: 20px 40px;
+}
+.daftaratas li:hover, .daftaratas a:hover, .daftarbawah li:hover, .daftarbawah a:hover {
+	background-color: black;
+	color: #F08080;
+}
+.mainbody {
+	background-color: black;
+	height: 600px;
+	display: block;
+	padding: 80px 100px;
+	margin: 0 auto;
+}
+.judul {
+	color: #FFA07A;
+	margin-top: 0;
+	text-align: center;
+}
+.glat p {
+	color: #FFA07A;
+	font-family: Lucida Sans Unicode;
+	font-weight: bolder;
+}
+.glat {
+	float: left;
+	padding: 0 40px;
+}
+.form {
+	background-color: black;
+	color: #FFA07A;
+	height: 300px;
+	width: 100%;
+}
+.form h3 {
+	border-top: 3px solid #F08080;
+	padding: 10px;
+}
+.form p {
+	padding: 0;
+	margin-bottom: 10px;
+	font-family: Lucida Sans Unicode;
+	font-weight: bold;
+}
+.form textarea {
+	width: 250px;
+	height: 80px;
+	resize: none;
+	color: #FFA07A;
+	background-color: black;
+	border: 3px solid #F08080;
+}
+.form input {
+	width: 250px;
+	color: black;
+	background-color: #FFA07A;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: Arial Black;
+}
+.kolom {
+	float: left;
+	text-align: center;
+	margin: 0 200px;
+}
+.kaki {
+	background-color: #F08080;
+	height: 150px;
+}
+.bawahkiri {
+	float: left;
+	font-weight: bolder;
+	padding: 30px;
+	font-size: 40px;
+	margin-top: 20px;
+}
+.daftarbawah {
+	float: right;
+}
+.daftarbawah li {
+	padding: 7.5px 15px;
+	margin-right: 70px;
+	text-align: center;
+	font-weight: bold;
+	justify-content: center;
+}
+.copyright {
+	background-color: black;
+	color: #F08080;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+.copyright {
+	font-size: 14px;
+}
