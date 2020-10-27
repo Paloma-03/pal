@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LATIHAN</title>
+	<link rel="stylesheet" href="PERCOBAAN.css">
+	<link rel="stylesheet" href="PERCOBAAN RESPONSIVE.css">
+</head>
+<style type="text/css">
+	li {
+	list-style: none;
+	font-family: Lucida Sans Unicode;
+}
+img {
+	width: 200px;
+	height: 200px;
+}
+body {
+	margin: 0 auto;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.kotakk {
+	max-width: 1200px;
+}
+.ataskiri, .bawahkiri, .judul {
+	font-family: Arial Black;
+}
+.atas {
+	background-color: #F08080;
+	height: 60px;
+	position: absolute;
+	width: 100%
+}
+.ataskiri {
+	float: left;
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-right: 100px;
+	line-height: 2;
+}
+.daftaratas li{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+.daftaratas a {
+	padding: 20px 40px;
+}
+.daftaratas li:hover, .daftaratas a:hover, .daftarbawah li:hover, .daftarbawah a:hover {
+	background-color: black;
+	color: #F08080;
+}
+.mainbody {
+	background-color: black;
+	height: 600px;
+	display: block;
+	padding: 80px 100px;
+	margin: 0 auto;
+}
+.judul {
+	color: #FFA07A;
+	margin-top: 0;
+	text-align: center;
+}
+.glat p {
+	color: #FFA07A;
+	font-family: Lucida Sans Unicode;
+	font-weight: bolder;
+}
+.glat {
+	float: left;
+	padding: 0 40px;
+}
+.form {
+	background-color: black;
+	color: #FFA07A;
+	height: 300px;
+	width: 100%;
+}
+.form h3 {
+	border-top: 3px solid #F08080;
+	padding: 10px;
+}
+.form p {
+	padding: 0;
+	margin-bottom: 10px;
+	font-family: Lucida Sans Unicode;
+	font-weight: bold;
+}
+.form textarea {
+	width: 250px;
+	height: 80px;
+	resize: none;
+	color: #FFA07A;
+	background-color: black;
+	border: 3px solid #F08080;
+}
+.form input {
+	width: 250px;
+	color: black;
+	background-color: #FFA07A;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: Arial Black;
+	justify-content: center;
+}
+.kolom {
+	float: left;
+	text-align: center;
+	margin: 0 200px;
+}
+.kaki {
+	background-color: #F08080;
+	height: 150px;
+}
+.bawahkiri {
+	float: left;
+	font-weight: bolder;
+	padding: 30px;
+	font-size: 40px;
+	margin-top: 20px;
+}
+.daftarbawah {
+	float: right;
+}
+.daftarbawah li {
+	padding: 7.5px 15px;
+	margin-right: 70px;
+	text-align: center;
+	font-weight: bold;
+	justify-content: center;
+}
+.copyright {
+	background-color: black;
+	color: #F08080;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+.copyright {
+	font-size: 14px;
+}
+/* Untuk Tablets */
+
+@media (max-width: 1000px ) {
+	.ataskiri {
+		font-size: 25px;
+		margin-top: 4px;
+	}
+	.daftaratas li {
+		font-size: 15px;
+	}
+	.daftaratas a {
+	  padding: 10px 20px;
+	}
+	.mainbody {
+		height: 500px;
+		padding: 70 auto;
+	}
+	.gambarlinkalbum h3 {
+		margin-top: 5px;
+	}
+	.glat {
+		padding: 0 0;
+		text-align: center;
+		width: 25%;
+	}
+	.glat p {
+		color: #F08080;
+		z-index: 10;
+		font-weight: bolder;
+		cursor: pointer;
+	}
+	.glat p:hover {
+		background-color: #FFA07A;
+		color: black;
+	}
+	.glat img {
+		width: 150px;
+		height: 150px;
+		padding-top: 10px;
+	}
+	.kolom {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.form {
+	  text-align: center;
+	  height: 400px;
+	}
+	.form p {
+	  padding-top: 10px;
+	}
+	
+}
+/* 250% */
+@media (max-width: 670px ) {
+  .atas {
+  	height: 50px;
+  }
+  .ataskiri {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 40px;
+  }
+  .daftaratas li {
+    font-size: 10px;
+  }
+  .daftaratas a {
+    padding: 5px 10px;
+  }
+	.mainbody {
+		padding: 70px 10px;
+		height: 2300px;
+	}
+	.glat {
+		width: 100%;
+		padding: 0 0;
+		text-align: center;
+	}
+	.judul {
+	  font-size: 15px;
+	  margin-bottom: 10px;
+	}
+	.glat p {
+		color: #FFA07A;
+		width: 100%;
+		z-index: 10;
+		font-weight: bolder;
+		cursor: pointer;
+		font-size: 20px;
+		text-align: center;
+	}
+	.glat p:hover {
+		background-color: #F08080;
+		color: black;
+	}
+	.glat img {
+		width: 200px;
+		height: 200px;
+		padding: 5px 5px;
+	}
+	.form {
+	  width: 100%;
+	  text-align: center;
+	  height: 500px;
+	}
+	.form h3 {
+	  font-size: 13px;
+	  padding-top: 10px;
+	}
+	.form p {
+	  font-size: 13px;
+	}
+	.kolom {
+	 margin: 5px auto;
+	 width: 60%;
+	 float: none;
+	}
+	.kaki {
+	  height: 135px;
+	}
+	.bawahkiri {
+	  font-size: 28px;
+	}
+	.daftarbawah li {
+	  margin-right: 25px;
+	  font-size: 13px;
+	  text-align: justify;
+	}
+  .copyright {
+    font-size: 11px;
+  }
+}
+</style>
+<body>
+<div class="kotakk">
+<div class="atas">
+	<div class="ataskiri"> MY </div>
+	<div class="daftaratas">
+		<ul>
+			<li><a href="">RECOMMENDATION</a></li>
+			<li><a href="">MY FAVORITE</a></li>
+			<li><a href="">LYRICS</a></li>
+		</ul>
+	</div>
+</div>
+</div>
+<div class="mainbody">
+<div class="gambarlinkalbum">
+	<h3 class="judul">RECOMMENDED ALBUM ON SPOTIFY</h3>
+	<div class="glat">
+		<a href="https://open.spotify.com/album/5s0rmjP8XOPhP6HhqOhuyC"><img src="https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/9a/0b/a2/9a0ba21b-7498-5a1b-859e-70ad047e134c/16UMGIM76040.rgb.jpg/500x500bb-60.jpg"></a>
+		<p>POST MALONE</p>
+	</div>
+	<div class="glat">
+		<a href="https://open.spotify.com/album/1yGbNOtRIgdIiGHOEBaZWf"><img src="https://static.billboard.com/files/media/Taylor-Swift-1989-album-covers-billboard-1000x1000-compressed.jpg"></a>
+		<p>TAYLOR SWIFT</p>
+	</div>
+	<div class="glat">
+		<a href="https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN"><img src="https://static.billboard.com/files/media/The-Beatles-Abbey-Road-album-covers-billboard-1000x1000-compressed.jpg"></a>
+		<p>THE BEATLES</p>
+	</div>
+	<div class="glat">
+		<a href="https://open.spotify.com/album/0HiwsXForePsWdIZW6EEkK"><img src="https://i.pinimg.com/564x/64/de/6a/64de6a7c26c3dd2adf1f6484d1db1401.jpg"></a>
+		<p>LANY</p>
+	</div>
+	<div class="glat">
+		<a href="https://open.spotify.com/album/6J84szYCnMfzEcvIcfWMFL"><img src="https://i.pinimg.com/236x/5d/22/08/5d2208ace3688d113997488d30bd0f27.jpg"></a>
+		<p>BRUNO MARS</p>
+	</div>
+	<div class="glat">
+		<a href="https://open.spotify.com/album/06SY6Ke6mXzZHhURLVU57R"><img src="https://i.pinimg.com/236x/fa/9e/4f/fa9e4f4c0383a12666a768cd4e611229.jpg"></a>
+		<p>KATY PERRY</p>
+	</div>
+	<div class="glat">
+		<a href="https://open.spotify.com/album/3tx8gQqWbGwqIGZHqDNrGe"><img src="https://i.pinimg.com/236x/06/ce/cd/06cecd54b1cb51f41c7aef5ebe115aff.jpg"></a>
+		<p>ARIANA GRANDE</p>
+	</div>
+	<div class="glat">
+		<a href="https://open.spotify.com/album/4AdZV63ycxFLF6Hcol0QnB"><img src="https://i.pinimg.com/236x/be/94/78/be9478684f5056bae6292b7d9a769c36.jpg"></a>
+		<p>THE WEEKEND</p>
+	</div>
+</div>
+</div>
+<div class="form">
+	<h3 class="judul">GIVE ME YOUR OPINION OR RECOMMEND</h3>
+	<div class="kolom">
+	<p>OPINION</p>
+	<textarea></textarea>
+	<p></p>
+	<input class="tombol" type="submit" value="SEND">
+	</div>
+	<div class="kolom">
+	<p>RECOMMEND</p>
+	<textarea></textarea>
+	<p></p>
+	<input class="tombol" type="submit" value="SEND">
+	</div>
+</div>
+
+<div class="kaki">
+<div class="bawahkiri"> MY </div>
+<div class="daftarbawah">
+	<ul>
+		<li><a href="">PROFILE</a></li>
+		<li><a href="">CONTACT</a></li>
+		<li><a href="">MEMORIES</a></li>
+	</ul>
+</div>
+</div>
+<div class="kotakk">
+<div class="copyright"><p>Copyright © 2020 PALOMA MATONDANG. All Rights Reserved</p></div>
+</div>
+</body>
+</html>
